@@ -20,7 +20,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
@@ -41,10 +41,12 @@ body {
 .menu-link:active {
     color: #404bbf;
 }
+.main-addres {
+    font-style: normal;
+}
     
 .addres-item {
     font-weight: 400;
-    font-style: normal;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -64,12 +66,13 @@ body {
 .text-hero {
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #ffffff;
 }
 .button-hero {
+    font-family: "Roboto", sans-serif;
     background: #4d5ae5;
     font-weight: 500;
         font-size: 16px;
@@ -83,7 +86,12 @@ body {
 }
 
 /* ========= BENEFITS STYLES========== */
-
+.benefits-section {
+    background-color: #F4F4FD;
+}
+.list-benefits {
+    background-color: #F4F4FD;
+}
 .benefits-item {
     font-weight: 500;
         font-size: 20px;
@@ -100,14 +108,20 @@ body {
 }
  
 /* =========TEAM STYLES========== */
-
-.text-h2 {
+.our-team-section {
+    background-color: #F4F4FD;
+}
+.text-title {
+    text-transform: capitalize;
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+}
+.list-team {
+    background-color: #FFFFFF;
 }
 .name-people {
     font-weight: 500;
