@@ -111,6 +111,9 @@ body {
 .our-team-section {
     background-color: #F4F4FD;
 }
+.list-team {
+    background-color: #FFFFFF;
+}
 .text-title {
     text-transform: capitalize;
     font-weight: 700;
